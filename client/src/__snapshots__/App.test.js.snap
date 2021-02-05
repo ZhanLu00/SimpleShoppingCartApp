@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components renders properly 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <nav
+      className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"
+    >
+      <span
+        className="navbarBrand navbar-brand"
+        href=""
+      >
+        <img
+          alt=""
+          className="d-inline-block align-top"
+          src="https://cdn.clipart.email/d8a63873616061abe7766d804101fd26_online-shopping-cart-logo-png-png-image_256-256.png"
+        />
+         
+        Checkout App
+      </span>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          className="mr-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key={null}
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            Home
+          </a>
+          <div
+            className="dropdown nav-item"
+            onKeyDown={[Function]}
+          >
+            <a
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="dropdown-toggle nav-link"
+              data-rb-event-key={null}
+              href="#"
+              id="basic-nav-dropdown"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Select Region
+            </a>
+          </div>
+        </div>
+        <form
+          className="form-inline"
+        >
+          <div
+            className="nav-discount"
+          >
+            <input
+              className="mr-sm-2 nav-discount-input form-control form-control-sm"
+              id="promoCode"
+              onChange={[Function]}
+              placeholder="promo code"
+              required={true}
+              type="text"
+              value=""
+            />
+            <button
+              className="nav-discount-submit btn btn-outline-success btn-sm"
+              disabled={false}
+              onClick={[Function]}
+              type="submit"
+            >
+              Discount
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="appContainer container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="newItemContainer col-xl-5 col-lg-6 col-md-4 col-sm-12"
+      >
+        <div
+          className="newItemContainer"
+        >
+          <form
+            className="newItemForm"
+          >
+            <div
+              className="form-group"
+            >
+              <label
+                className="form-label"
+              >
+                Item Name
+              </label>
+              <input
+                className="form-control"
+                id="name"
+                onChange={[Function]}
+                placeholder="Enter Item Name"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-row"
+            >
+              <div
+                className="col-lg-6 col-md-12 col-sm-6"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className="form-label"
+                  >
+                    Item Quantity
+                  </label>
+                  <input
+                    className="form-control"
+                    id="quantity"
+                    min={1}
+                    onChange={[Function]}
+                    required={true}
+                    type="number"
+                    value={1}
+                  />
+                </div>
+              </div>
+              <div
+                className="col-lg-6 col-md-12 col-sm-6"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className="form-label"
+                  >
+                    Item Price
+                  </label>
+                  <input
+                    className="form-control"
+                    id="price"
+                    min={0.01}
+                    onChange={[Function]}
+                    required={true}
+                    step={0.05}
+                    type="number"
+                    value={9.99}
+                  />
+                </div>
+              </div>
+            </div>
+            <button
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              type="submit"
+            >
+              Add to your chart
+            </button>
+            <small
+              className="form-text"
+            >
+              Or
+            </small>
+            <button
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Add Random
+            </button>
+          </form>
+        </div>
+      </div>
+      <div
+        className="checkoutContainer col-xl-7 col-lg-6 col-md-8 col-sm-12"
+      >
+        <div
+          className="itemContainer"
+        >
+          <nav
+            className="itemNav navbar navbar-expand navbar-dark bg-info"
+          >
+            <span
+              className="navbar-brand"
+            >
+              Your Cart
+            </span>
+          </nav>
+          <div
+            className="itemList"
+          />
+          <nav
+            className="itemTotal navbar navbar-expand navbar-dark bg-danger sticky-bottom fixed-buttom"
+          >
+            <span
+              className="navbar-brand"
+            >
+              Your Subtotal: $
+              0.00
+            </span>
+            <div
+              aria-expanded={null}
+              className="justify-content-end navbar-collapse collapse"
+            >
+              <button
+                className="btn btn-light"
+                disabled={false}
+                onClick={[Function]}
+                type="submit"
+              >
+                Checkout
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components renders properly 2`] = `
+<div
+  className="card border-info"
+>
+  <div
+    className="itemRow row"
+  >
+    <div
+      className="col"
+    >
+      Chips
+    </div>
+    <div
+      className="col"
+    >
+      Quantity: 
+      1
+    </div>
+    <div
+      className="col"
+    >
+      $
+      2
+    </div>
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-outline-danger btn-sm"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</div>
+`;

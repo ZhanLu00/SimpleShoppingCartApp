@@ -1,0 +1,12 @@
+.itemContainer {
+	height: inherit;
+}
+.itemTotal{
+	bottom: 0px;
+}
+
+.itemList{
+	height: calc(100vh - (56px * 3));
+	background-color: #d3d3d3;
+	overflow-y: auto;
+}

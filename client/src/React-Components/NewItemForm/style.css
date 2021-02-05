@@ -1,0 +1,29 @@
+.newItemForm{
+	border-color: blue;
+	border-style: solid;
+	border-width: thin;
+	border-top: none;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10vh;
+	background-color: lightgray;
+	
+}
+
+@media (max-width: 576px){
+	.newItemForm{
+		padding: 10vw;
+	}
+}
+
+@media (min-width: 768px){
+	.newItemForm{
+		padding: 5vw;
+	}
+}
+
+@media (min-width: 1200px){
+	.newItemForm{
+		padding: 68px;
+	}
+}

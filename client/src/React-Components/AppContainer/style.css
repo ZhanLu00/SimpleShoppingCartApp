@@ -1,0 +1,13 @@
+.appContainer{
+	
+}
+.addItemContainer{
+	background-color: rgb(200, 100, 100);
+	height: 80vh;
+}
+
+.checkoutContainer{
+	background-color: rgb(100, 100, 100);
+	height: calc(100vh - 56px);
+	overflow-y: auto;
+}

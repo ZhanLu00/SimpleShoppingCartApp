@@ -1,0 +1,7 @@
+div.App .form-group{
+	text-align: left;
+}
+
+.newItemContainer {
+	overflow-y: auto;
+}
